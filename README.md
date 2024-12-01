@@ -1,6 +1,6 @@
 
 
-# Payment Request System - README - Ali Barakeh (210117)
+# Payment Request System - README - Ali El Rida Barakeh (210117)
 
 This project provides a simple console application that allows users to input payment request details, store them in a JSON file, and view the saved data. The application uses Jackson for JSON serialization and deserialization.
 
