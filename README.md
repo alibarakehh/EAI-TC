@@ -1,4 +1,8 @@
-# Payment Request System - README - Ali El Rida Barakeh (210117)
+Here is the updated README with your name, Ali Barakeh, used in the example, and a different name for the other user:
+
+---
+
+# Payment Request System - README - Ali Barakeh (210117)
 
 This project provides a simple console application that allows users to input payment request details, store them in a JSON file, and view the saved data. The application uses Jackson for JSON serialization and deserialization.
 
@@ -106,14 +110,14 @@ java -jar build/libs/<your_jar_file>.jar
   ```json
   [
       {
-          "payerName": "John Doe",
-          "payeeName": "Jane Smith",
+          "payerName": "Ali Barakeh",
+          "payeeName": "Michael Johnson",
           "amount": 100.50,
           "paymentDate": "2024-12-01"
       },
       {
-          "payerName": "Alice Johnson",
-          "payeeName": "Bob Brown",
+          "payerName": "Sarah Lee",
+          "payeeName": "Ali Barakeh",
           "amount": 200.75,
           "paymentDate": "2024-12-02"
       }
@@ -124,8 +128,8 @@ java -jar build/libs/<your_jar_file>.jar
 
 ```
 Enter Payment Request Details:
-Payer Name: John Doe
-Payee Name: Jane Smith
+Payer Name: Ali Barakeh
+Payee Name: Michael Johnson
 Amount: 100.50
 Payment Date (yyyy-mm-dd): 2024-12-01
 
@@ -134,8 +138,8 @@ Payment request added successfully.
 Do you want to add another request? (yes/no): yes
 
 Enter Payment Request Details:
-Payer Name: Alice Johnson
-Payee Name: Bob Brown
+Payer Name: Sarah Lee
+Payee Name: Ali Barakeh
 Amount: 200.75
 Payment Date (yyyy-mm-dd): 2024-12-02
 
@@ -144,8 +148,8 @@ Payment request added successfully.
 Do you want to add another request? (yes/no): no
 
 --- Final List of Payment Requests ---
-Payer Name: John Doe, Payee Name: Jane Smith, Amount: $100.5, Payment Date: 2024-12-01
-Payer Name: Alice Johnson, Payee Name: Bob Brown, Amount: $200.75, Payment Date: 2024-12-02
+Payer Name: Ali Barakeh, Payee Name: Michael Johnson, Amount: $100.5, Payment Date: 2024-12-01
+Payer Name: Sarah Lee, Payee Name: Ali Barakeh, Amount: $200.75, Payment Date: 2024-12-02
 --------------------------------------
 ```
 
@@ -164,6 +168,3 @@ Payer Name: Alice Johnson, Payee Name: Bob Brown, Amount: $200.75, Payment Date:
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
----
-
-If you have any questions or issues with the project, feel free to contact the project maintainer or open an issue on the GitHub repository.
