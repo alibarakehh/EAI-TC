@@ -1,6 +1,4 @@
-Here is the updated README with your name, Ali Barakeh, used in the example, and a different name for the other user:
 
----
 
 # Payment Request System - README - Ali Barakeh (210117)
 
